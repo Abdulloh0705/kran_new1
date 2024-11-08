@@ -1,0 +1,48 @@
+.krn_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.krn_str {
+  padding: 15px;
+}
+
+.krn_title {
+ 
+}
+
+.krn_title {
+  color: #e5e7eb;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+  opacity: 0.8;
+}
+
+.krn_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 15px 0;
+  max-width: 250px;
+  width: 100%;
+  text-align: justify;
+  font-family: var(--font-family);
+  font-weight: 1000;
+  font-size: 15px;
+  line-height: 200%;
+  color: #e5e7eb;
+  padding-right: 15px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+  opacity: 0.8;
+}
+
+.krn_img1 {
+  max-width: 260px;
+ 
+  border-radius: 25%;
+}
+
+.krn_img {
+
+}
