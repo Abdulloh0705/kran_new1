@@ -1,3 +1,5 @@
+@import "/src/assets/sass/media.scss";
+
 .krn_esses {
   display: flex;
   align-items: center;
@@ -5,7 +7,9 @@
   padding: 20px;
   margin: 10px;
 }
-
+.main{
+  padding: 10px;
+}
 .info_title {
   color: #e5e7eb;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
@@ -19,7 +23,7 @@
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
   opacity: 0.8;
   padding: 25px 20px 15px 15px;
-  max-width: 100px;
+  max-width: 178px;
 }
 
 .call {
@@ -27,7 +31,7 @@
 }
 
 .info_card1 {
-  max-width: 500px;
+  max-width: 410px;
   width: 100%;
   min-height: 250px;
   background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.32) -11.04%, rgba(255, 255, 255, 0.18) 104.89%);
@@ -35,6 +39,10 @@
   border-radius: 34px;
   transition: all 1s ease-in-out;
   margin: 10px auto;
+  @include media(350) {
+    min-height: 350px;
+   }
+  
 }
 
 .info_img1 {
@@ -47,6 +55,10 @@
 .krn_infos {
   display: flex;
   justify-content: space-between;
+  @include media(378) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .intro_link4 {
@@ -68,7 +80,9 @@
 
 .web {
   display: flex;
-
+  @include media(378) {
+   justify-content: center;
+  }
 }
 
 .teg_img {

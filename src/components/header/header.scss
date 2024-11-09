@@ -1,8 +1,14 @@
+@import "/src/assets/sass/media.scss";
+
 .krn_all {
   display: flex;
   align-items: center;
   justify-content: center;
+  
   padding-top: 15px;
+  @include media(480) {
+      flex-direction: column;
+  }
 }
 
 .krn_str {
@@ -39,7 +45,7 @@
 
 .krn_img1 {
   max-width: 260px;
- 
+  margin-right: 10px;
   border-radius: 25%;
 }
 
