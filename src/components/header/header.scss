@@ -7,8 +7,12 @@
   
   padding-top: 15px;
   @include media(480) {
-      flex-direction: column;
-  }
+    flex-direction: column;
+}
+@include media(450) {
+  overflow: hidden;
+ }
+ 
 }
 
 .krn_str {
@@ -50,5 +54,6 @@
 }
 
 .krn_img {
-
+max-width: 100%;
+overflow: hidden;
 }

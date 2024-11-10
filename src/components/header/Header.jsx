@@ -14,7 +14,7 @@ const Header = () => {
       if (i < text.length) {
         setTimeout(() => {
           rec(i);
-        }, 50); // Typing speed
+        }, 70); // Typing speed
       }
     }
 
@@ -33,11 +33,11 @@ const Header = () => {
     window.addEventListener('load', animation);
 
     return () => {
-      // Cleanup event listeners when component is unmounted
+     
       window.removeEventListener('scroll', animation);
       window.removeEventListener('load', animation);
     };
-  }, []); // Empty dependency array ensures it runs only once on mount
+  }, []); 
 
   return (
     <header>

@@ -67,31 +67,34 @@
 }
 
 .cal_img {
-
+  font-size: 25px;
   color: #e5e7eb;
   margin-left: 10px;
 }
 
 .insta_img {
-
+ font-size: 25px;
   color: #e5e7eb;
   margin-left: 10px;
 }
 
 .web {
   display: flex;
+  margin-left: 15px;
   @include media(378) {
    justify-content: center;
+  
   }
 }
 
 .teg_img {
   color: #e5e7eb;
   margin-left: 10px;
+  font-size: 25px;
 }
 
 .tik_img {
-
+  font-size: 25px;
 
   color: #e5e7eb;
   margin-left: 10px;
@@ -99,9 +102,10 @@
 }
 
 .you_img {
-
+  font-size: 25px;
   color: #e5e7eb;
   margin-left: 10px;
+
 }
 
 .intro_link4 {}
