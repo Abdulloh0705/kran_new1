@@ -11,7 +11,7 @@ const Footer = () => {
           <h2 className="info_title">Murojat uchun ; </h2>
           </div>
           <div className="info_web">
-          <a href="https://t.me/@izana_07_05" className="footer_link">
+          <a href="https://t.me/@izana0705" className="footer_link">
               <div className="teg_info"><BsTelegram /></div>
             </a>
             <a href="tel:+998993084090" className="footer_link">
